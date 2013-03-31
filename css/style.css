@@ -3,21 +3,26 @@ body > .wrapper { height: auto; min-height: 100%; }
 #content { padding-bottom: 100px; }
 #footer { clear: both; position: relative; z-index: 10; height: 100px; margin-top: -116px; }
 
+body { background:#f7f7f7; }
+
 #header {
-    background: #444;
-    border-bottom: 4px solid #c02942;
+    height:45px;
+    background:#333;
+    color:#eee;
+    padding-top:7px;
+    padding-bottom: 7px;
+    border-top:4px solid #000;
+    box-shadow: 0 0 5px #777;
+}
+
+#header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
     color: #fff;
-    padding-top: 35px;
-    padding-bottom: 10px;
-}
-
-a, a:hover {
-    color: #c02942;
-}
-
-#header small {
-    color: #eee;
-    font-size: 0.32em;
+    margin-top: 0;
+    padding-top: 0;
+    text-shadow: 0 1px 2px #000;
 }
 
 #content {
