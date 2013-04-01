@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+name: about
 title: Open Notify -- About
 ---
 

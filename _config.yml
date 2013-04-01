@@ -6,4 +6,5 @@ navigation:
 - text: Source Code
   url: https://github.com/open-notify
 - text: About
-  url: /about.html
+  url: /about
+  name: about

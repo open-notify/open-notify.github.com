@@ -1,5 +1,6 @@
 ---
 layout: page
+name: home
 permalink: /
 title: Open Notify
 ---
