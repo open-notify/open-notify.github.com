@@ -24,6 +24,9 @@
  <div id="content">
   <div class="container"><div class="row"><div class="span8">
    {{ content }}
+    {% if page.url == '/' %}
+     it's a home page!
+    {% endif %}
   </div></div></div>
  </div>
 </div>
