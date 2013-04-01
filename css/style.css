@@ -1,7 +1,8 @@
 html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
 body > .wrapper { height: auto; min-height: 100%; }
-#content { padding-bottom: 100px; }
-#footer { clear: both; position: relative; z-index: 10; height: 100px; margin-top: -116px; }
+#content { padding-bottom: 300px; }
+#footer { clear: both; position: relative; z-index: 10; height: 150px; margin-top: -200px; }
+
 
 body { background:#f7f7f7; }
 
@@ -67,8 +68,17 @@ h2 {
 }
 
 #footer {
-    background: #eee;
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
+	background: #222 url('/css/border.png') repeat-x 0 0;
+	padding-top: 50px;
+    font-size: 0.9em;
+    color: #aaa;
+    text-shadow: 1px 1px 2px #000;
 }
 
+#footer a {
+    color: #ddd;
+}
+
+.pull-right {
+    float: right;
+}
