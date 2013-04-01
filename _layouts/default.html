@@ -14,19 +14,23 @@
   <div class="container">
    <h1><a href="/">Open Notify</a></h1>
    <ul id="navigation" class="nav nav-tabs">
-    <li class="active"><a href="">Home</a></li>
-    <li><a href="/Open-Notify-API">API Docs</a></li>
-    <li><a href="https://github.com/open-notify">Source Code</a></li>
-    <li><a href="/about">About</a></li>
+    {% for link in site.navigation %}
+      {% assign current = nil %}
+      {% if page.url == link.url or page.layout == link.layout %}
+        {% assign current = 'active' %}
+      {% endif %}
+
+      <li class="{{ current }}">
+        <a href="{{ link.url }}">{{ link.text }}</a>
+      </li>
+    {% endfor %} 
    </ul>
   </div>
  </div>
  <div id="content">
   <div class="container"><div class="row"><div class="span8">
    {{ content }}
-    {% if page.url == '/' %}
-     it's a home page!
-    {% endif %}
+    {{page.url}}
   </div></div></div>
  </div>
 </div>
