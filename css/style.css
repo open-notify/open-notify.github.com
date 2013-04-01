@@ -18,11 +18,36 @@ body { background:#f7f7f7; }
 #header h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     color: #e8e8e8;
     margin-top: 0;
     padding-top: 0;
     text-shadow: 0 1px 2px #000;
+    float: left;
+}
+
+#header a {
+    color: #e8e8e8;
+}
+
+#navigation {
+    float: right;
+    margin:0;
+    padding:0;
+    border: none;
+    margin-top: 16px;
+}
+
+#navigation>li>a {
+    border: none;
+}
+
+#navigation>li>a:hover, #navigation>li>a:focus {
+    background: #c20;
+}
+
+#navigation>.active>a, #navigation>.active>a:hover, #navigation>.active>a:focus {
+    background: #c20;
 }
 
 #content {
