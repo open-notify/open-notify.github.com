@@ -51,6 +51,12 @@ body { background:#f7f7f7; }
     background: #c20;
 }
 
+
+.navwell {
+    max-width: 350px;
+    padding:0;
+}
+
 #content {
     padding-top: 50px;
 }
