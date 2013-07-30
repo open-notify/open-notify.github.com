@@ -1,0 +1,9 @@
+<p>There are currently <span id="spacepeeps" style="font-weight:bold;">?</span> humans in space.</p>
+<script>
+
+$.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
+    var number = data['number'];
+    $('#spacepeeps').html(number);
+});
+
+</script>

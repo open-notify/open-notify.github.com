@@ -19,8 +19,11 @@ related to space and spacecraft.
 
 ### APIs:
 
- - [Current Location of the International Space Station](http://open-notify.org/Open-Notify-API/ISS-Location-Now)
+ - [Current Location of the International Space Station](/Open-Notify-API/ISS-Location-Now)
 
     - Example: {% include issnow.html %}
 
- - [Overhead Pass Predictions for the International Space Station](http://open-notify.org/Open-Notify-API/ISS-Pass-Times)
+ - [Overhead Pass Predictions for the International Space Station](/Open-Notify-API/ISS-Pass-Times)
+ - [Number of People in Space](/Open-Notify-API/People-In-Space)
+
+    - Example: {% include astros.html %}
