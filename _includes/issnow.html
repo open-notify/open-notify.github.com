@@ -1,0 +1,16 @@
+<p>The ISS is currently over <span id="isslat">?</span>&deg; N, <span id="isslon">?</span>&deg; E</p>
+<script>
+
+function getISS () {
+    $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+        var lat = data['iss_position']['latitude'];
+        var lon = data['iss_position']['longitude'];
+        $('#isslat').html(Math.round(lat*1000)/1000.0);
+        $('#isslon').html(Math.round(lon*1000)/1000.0);
+    });
+    setTimeout(getISS, 3000); 
+}
+
+getISS();
+
+</script>
