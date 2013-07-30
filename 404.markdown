@@ -1,0 +1,22 @@
+---
+layout: page
+name: 404
+title: Open Notify - Page Not Found
+---
+
+# 404 - Page Not Found
+
+Ya, that's not here. Sorry.
+
+<ul class="thumbnails">
+  <li class="span4">
+    <a href="http://www.flickr.com/photos/jurvetson/252084585/" class="thumbnail">
+      <img src="/img/XPRS_CATO_jurvetson.jpg" class="img-rounded">
+    </a>
+    <a href="http://www.flickr.com/photos/jurvetson/252084585/">XPRS CATO!</a> by <a href="">jurvetson</a> on Flickr.
+  </li>
+</ul>
+
+This site was rebuilt recently and older content was removed.
+
+Maybe you were looking for the [API docs]()?
